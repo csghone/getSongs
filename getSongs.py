@@ -83,25 +83,9 @@ while count < _NUM_FOLDER_TO_COPY_:
 
 
 
-
-
-curFile = MP3("R:\\EnglishSongs\\A\\Alan Parsons Project, The\\1976 Tales Of Mystery And Imagination\\01 - A Dream Within a Dream.mp3");
 #songtitle = curFile["TIT2"]
 #artist    = curFile["TPE1"]
 #album     = curFile["TALB"]
 #print songtitle
 #print artist
 #print album
-
-curFile = MP3("R:\\OtherDrives\\Songs2\\EnglishSongs\\R\\Romanian\\.01. Professor.mp3");
-curFile = MP3("R:\\EnglishSongs\\A\\Alan Parsons Project, The\\1976 Tales Of Mystery And Imagination\\01 - A Dream Within a Dream.mp3");
-error = 0
-try:
-    songtitle = curFile["TIT2"]
-except:
-    error = 1
-
-if(error):
-    print songtitle
-    print artist
-    print album
